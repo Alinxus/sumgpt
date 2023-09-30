@@ -11,14 +11,14 @@ const App = () => {
   return (
     <>
     <Helmet>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24E564EY06"></script>
-      <script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5E92MCQSE"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
 
-  gtag('config', 'G-24E564EY06');
-    </script>
+  gtag('config', 'G-F5E92MCQSE');
+</script>
     </Helmet>
     <main>
         <div className="main">
