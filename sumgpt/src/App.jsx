@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet"
 const App = () => {
   return (
     <>
+    <head>
     <Helmet>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5E92MCQSE"></script>
 <script>
@@ -19,7 +20,9 @@ const App = () => {
 
   gtag('config', 'G-F5E92MCQSE');
 </script>
+
     </Helmet>
+    </head>
     <main>
         <div className="main">
             <div className="gradient" />
